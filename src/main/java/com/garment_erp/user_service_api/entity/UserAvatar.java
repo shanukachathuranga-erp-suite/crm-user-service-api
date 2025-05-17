@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name = "shipping_address")
+@Entity(name = "user_avatar")
 public class UserAvatar {
     @Id
     @Column(name = "avatar_id", nullable = false, unique = true, length = 80)
